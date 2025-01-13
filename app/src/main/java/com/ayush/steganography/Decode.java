@@ -67,7 +67,7 @@ public class Decode extends AppCompatActivity implements TextDecodingCallback {
                             original_image);
 
                     //Making the TextDecoding object
-                    TextDecoding textDecoding = new TextDecoding(Decode.this, Decode.this);
+                    TextDecoding textDecoding = new TextDecoding(Decode.this);
 
                     //Execute Task
                     textDecoding.execute(imageSteganography);
